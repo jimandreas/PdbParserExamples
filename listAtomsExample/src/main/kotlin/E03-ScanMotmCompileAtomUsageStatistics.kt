@@ -11,6 +11,8 @@
  *  limitations under the License
  */
 
+@file:Suppress("MemberVisibilityCanBePrivate")
+
 import com.kotmol.pdbParser.*
 import com.kotmol.pdbParser.AtomInformationTable.atomSymboltoAtomNumNameColor
 import com.kotmol.pdbParser.AtomInformationTable.atomTable

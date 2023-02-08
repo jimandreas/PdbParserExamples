@@ -38,7 +38,7 @@ fun main() {
     if (fileExists) {
         val stream = DataInputStream(FileInputStream(INPUT_FILE))
         val retainedMessages = mutableListOf<String>()
-        val molecule: Molecule = Molecule()
+        val molecule = Molecule()
         ParserPdbFile
                 .Builder(molecule)
                 .loadPdbFromStream(stream)

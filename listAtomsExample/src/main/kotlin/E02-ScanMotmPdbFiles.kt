@@ -86,7 +86,7 @@ fun main() {
 
     val outputMessagesFilePath = "$E02_RELATIVE_PATH/0outfileMessages.txt"
     println("Writing parser messages to $outputMessagesFilePath")
-    val outFile = File("$outputMessagesFilePath")
+    val outFile = File(outputMessagesFilePath)
     val writer = outFile.bufferedWriter()
 
     writer.append("Messages from the PDB parser:\n")
